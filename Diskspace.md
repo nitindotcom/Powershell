@@ -21,5 +21,5 @@ foreach ($disk in $diskInfo) {
     # Calculate percentage of free space
     $percentageFree = ($freeSpaceBytes / $totalSpaceBytes) * 100
     
-    Write-Host "Disk Name: $volumeName (Device ID: $deviceID) - Free Space: $freeSpaceGB GB ($percentageFree% free)"
+    Write-Host "Drive Name: $volumeName ( $deviceID) - Free Space: $freeSpaceGB GB ($percentageFree% free)"
 }
